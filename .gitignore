@@ -1,0 +1,17 @@
+# JavaScript dependencies and build output
+node_modules/
+client/node_modules/
+client/dist/
+
+# Large local training datasets
+archive/
+
+# Python bytecode and virtual environments
+__pycache__/
+**/__pycache__/
+*.pyc
+.venv/
+
+# Local secrets and deployment configuration
+.env
+**/.env
